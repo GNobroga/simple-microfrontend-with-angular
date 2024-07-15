@@ -1,0 +1,24 @@
+.button {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  max-width: 250px;
+
+  &:hover {
+    opacity: .8;
+  }
+}
+
+
+:host {
+
+  &.green {
+    .button {
+      background: linear-gradient(to top, green, rgba(0, 128, 0, 0.478));
+      color: white;
+    }
+  }
+}
